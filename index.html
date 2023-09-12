@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DICE GAME</title>
+  <script src="dice.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="header">PLACE YOUR BETS</h1>
+  <div id="input">
+  <input type="number" placeholder="Minimum 100 PHP" id="bet">
+  </div>
+  
+  <div class="container">
+        <div class="h2-container">
+          <h2>Player 1</h2>
+          <h2>Player 2</h2>
+        </div>
+      <div class="dice-container">
+          <img src="" id="dice1">
+          <img src="" id="dice2">
+      </div>
+
+      <button onclick="diceButton()" id="dice-button">ROLL THE DICE</button>
+    </div>
+
+  <div id="renderResult"></div>
+
+</body>
+</html>
